@@ -101,7 +101,7 @@
   box-shadow: 1px 1px 6px 20px #2f056978;
 }
 
-.m7m7{
+.header_discription{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -111,6 +111,18 @@
   width: 100%;
   top: 0;
   z-index: 99;
+
+}
+
+.header_discription a{
+  color: white;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.header_discription a:hover{
+  font-size: 15px;
+  color: #ffe000;
+  font-weight: bold;
 }
 
 .all-button{

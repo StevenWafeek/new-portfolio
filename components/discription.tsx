@@ -6,7 +6,7 @@ import myImage from './steven2.jpg';
 function Discription () {
     return (
         <>
-        <div className="m7m7">
+        <div className="header_discription">
             <div className="StevImg">
 
         <Image
@@ -17,7 +17,7 @@ function Discription () {
             />
             </div>
         <Link href="/">home</Link>
-        <Link href="/about">about</Link>
+        <Link href="/about">Projects</Link>
         <Link href="/contact">Contact</Link>
         </div>
         </>
