@@ -1,7 +1,7 @@
 import Link from "next/link";
 import './discription.css';
 import Image from 'next/image'
-import myImage from './steven2.jpg';
+import myImage from './s.png';
 
 function Discription () {
     return (
@@ -12,8 +12,8 @@ function Discription () {
         <Image
             src={myImage}
             alt="pic"
-            width={120}
-            height={43}
+            width={39}
+            height={33}
             />
             </div>
         <Link href="/">home</Link>
