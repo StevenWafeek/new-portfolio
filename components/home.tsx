@@ -5,6 +5,9 @@ import Discription from "@/components/discription";
 import './discription.css';
 import Image from 'next/image'
 import myImage from './5708995.webp';
+import codkit from './Codekit.png';
+import GitHub from './github-logo.png';
+import webpack from './webpacklogo.png';
 import { useState } from "react";
 
 function HomePage(){
@@ -56,11 +59,31 @@ function HomePage(){
                     <button onClick={toggleSkills} className={showSkills ? 'aboutButn active' : 'aboutButn'}> Skills</button>
                     <div className={showSkills ? 'skillTree active' : 'skillTree'}>
                             <ul>
-                                <li>sala7</li>
-                                <li>mesh sala7</li>
-                                <li>ay aga</li>
-                                <li>ay aga</li>
-                                <li>ay aga</li>
+                            <li className="tooltip">                    <Image
+                            src={codkit}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">codkit</span>
+                            </li>
+                                <li className="tooltip">
+                                    <Image
+                                    src={GitHub}
+                                    alt="github"
+                                    width={40}
+                                    height={40}
+                                    />
+                                    <span className="tooltip-text">GitHub</span>
+                                    </li>
+                                    <li className="tooltip">                     <Image
+                            src={webpack}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">webpack</span>
+                            </li>
                             </ul>
                         </div>
 
