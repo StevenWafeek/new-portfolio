@@ -36,13 +36,13 @@
   width: 100%;
   padding: 20% 5%;
   gap: 20px;
-  background-image:url('./1686635204_en-idei-club-p-modern-technology-background-dizain-instag-33.png');
+  background-image:url('./pictures/1686635204_en-idei-club-p-modern-technology-background-dizain-instag-33.png');
   background-size:cover;
   height: 700px;
 }
 
 .Home-summary span img{
-  background-image: url("./Arrow.png");
+  background-image: url("./pictures/Arrow.png");
   background-repeat: no-repeat;
   background-position-x: 84px;
   background-position-y: -4px;
@@ -121,7 +121,7 @@
 }
 
 .buttonskills{
-  background-image: url('./gray-white-background-image-technology-background-design-communication-connection_262356-879.jpg');
+  background-image: url('./pictures/gray-white-background-image-technology-background-design-communication-connection_262356-879.jpg');
   width: 100%;
   padding: 114px;
   border-radius: 96px 0 0 0;

@@ -4,11 +4,15 @@
 import Discription from "@/components/discription";
 import './discription.css';
 import Image from 'next/image'
-import myImage from './5708995.webp';
-import codkit from './Codekit.png';
-import GitHub from './github-logo.png';
-import webpack from './webpacklogo.png';
 import { useState } from "react";
+import myImage from './pictures/5708995.webp';
+import codkit from './pictures/Codekit.png';
+import GitHub from './pictures/github-logo.png';
+import webpack from './pictures/webpacklogo.png';
+import html from './pictures/Ellipse 1 (1).png';
+import css from './pictures/Ellipse 1 (2).png';
+import js from './pictures/Ellipse 1.png';
+import ts from './pictures/ts.png';
 
 function HomePage(){
 
@@ -93,9 +97,38 @@ function HomePage(){
 
                             <div className={showLanguages ? 'LanguagesTree active' : 'LanguagesTree'}>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
+                            <li className="tooltip">                    <Image
+                            src={html}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">html</span>
+                            </li>
+                            <li className="tooltip">                    <Image
+                            src={css}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">css</span>
+                            </li>
+                            <li className="tooltip">                    <Image
+                            src={js}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">JavaScript</span>
+                            </li>
+                            <li className="tooltip">                    <Image
+                            src={ts}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">TypeScript</span>
+                            </li>
                             </ul>
                         </div>
                     </div>

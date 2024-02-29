@@ -1,7 +1,7 @@
 import Link from "next/link";
 import './discription.css';
 import Image from 'next/image'
-import myImage from './s.png';
+import myImage from './pictures/s.png';
 
 function Discription () {
     return (
