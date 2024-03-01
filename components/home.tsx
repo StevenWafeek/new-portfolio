@@ -13,6 +13,11 @@ import html from './pictures/Ellipse 1 (1).png';
 import css from './pictures/Ellipse 1 (2).png';
 import js from './pictures/Ellipse 1.png';
 import ts from './pictures/ts.png';
+import Bs from './pictures/bootstrap-logo-shadow.png';
+import next from './pictures/next-js-icon-512x512-zuauazrk.png';
+import tailwind from './pictures/tailwind (2).png';
+import redux from './pictures/redux.png';
+import react from './pictures/react-3.png';
 
 function HomePage(){
 
@@ -137,9 +142,46 @@ function HomePage(){
                             <div className={showFrameworks ? 'FrameworksTree active' : 'FrameworksTree'}>
 
                                 <ul>
-                                    <li>Skill 1</li>
-                                    <li>Skill 2</li>
-                                    <li>Skill 3</li>
+                                <li className="tooltip">                    <Image
+                            src={Bs}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">Bootstrap</span>
+                            </li>
+                            <li className="tooltip">                    <Image
+                            src={next}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">Next</span>
+                            </li>
+                            <li className="tooltip">                    <Image
+                            src={redux}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">Redux</span>
+                            </li>
+                            <li className="tooltip">                    <Image
+                            src={react}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">React</span>
+                            </li>
+                            <li className="tooltip">                    <Image
+                            src={tailwind}
+                            alt="pic"
+                            width={40}
+                            height={40}
+                            />
+                            <span className="tooltip-text">Tailwind</span>
+                            </li>
                                 </ul>
                             </div>
 
