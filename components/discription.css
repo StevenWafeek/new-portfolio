@@ -1,0 +1,263 @@
+.StevImg {
+  display: flex;
+  width: 120px;
+  height: 44px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.StevImg img {
+  transition: width 0.3s, height 0.3s;
+}
+
+.StevImg:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 3px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  animation: borderSpin 0.5s linear infinite;
+}
+
+@keyframes borderSpin {
+  0% { border-right: none; border-bottom: none; border-left: none; }
+  25% { border-right: 1px solid white; border-top: none; }
+  50% { border-right: none; border-bottom: 1px solid white; }
+  75% { border-bottom: none; border-left: 1px solid white; }
+  100% { border-left: none; border-top: 1px solid white; }
+}
+
+.Home-summary{
+  display: flex;
+  width: 100%;
+  padding: 20% 5%;
+  gap: 20px;
+  background-image:url('./pictures/1686635204_en-idei-club-p-modern-technology-background-dizain-instag-33.png');
+  background-size:cover;
+  height: 700px;
+}
+
+.Home-summary span img{
+  background-image: url("./pictures/Arrow.png");
+  background-repeat: no-repeat;
+  background-position-x: 84px;
+  background-position-y: -4px;
+  background-size: 64px;
+}
+
+.typing-animation {
+  font-family: monospace;
+  width: fit-content;
+  color: black;
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  white-space: nowrap;
+  margin-bottom: 35px;
+  letter-spacing: .15em;
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 750px }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0); }
+}
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.Home-summary p {
+  animation: fadeIn 2.5s ease-in-out forwards;
+  background: #29292978;
+  padding: 1%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 20px #29292978;
+}
+
+.header_discription{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1c1c1c7a;
+  box-shadow: 0px 3px 6px 0px #2323239c;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 99;
+}
+
+.header_discription a{
+  color: white;
+  transition: font-size 0.3s ease-in-out;
+  font-size: 15px;
+}
+
+.header_discription a:hover{
+  font-size: 20px;
+  color: #ffe52f;
+  font-weight: bold;
+}
+
+.all-button{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonskills{
+  background-image: url('./pictures/gray-white-background-image-technology-background-design-communication-connection_262356-879.jpg');
+  width: 100%;
+  padding: 114px;
+  border-radius: 96px 0 0 0;
+  box-shadow: -1px -2px 6px 0px #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  color: black;
+  background-size: cover;
+  margin-top: -90px;
+}
+
+/* .buttonskills button{
+  margin-left: 128px;
+  padding: 14px;
+  border-radius: 57%;
+  height: 86px;
+  background: #2d095d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #6e00ff;
+  cursor: pointer;
+  width: 88px;
+  z-index: 1;
+} */
+
+.buttonskills h2{
+  text-align: center;
+  font-size: 29px;
+}
+
+.buttonskills ul {
+  margin-left: 12%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.all-button ul li {
+  margin-top: 8px;
+  list-style-type: none;
+}
+
+#AboutMe-info{
+  margin: 0;
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+
+.aboutButn {
+  margin-left: 47%;
+  padding: 14px;
+  border-radius: 50%;
+  height: 86px;
+  background: #141414;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #656060;
+  cursor: pointer;
+  width: 88px;
+  z-index: 1;
+  transition: background-color, margin-left 0.5s ease;
+}
+
+.aboutButn.active {
+  background-color: #007eff;
+  margin-left: 128px;
+  border: 1px solid #3f3f3f;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.skillTree,
+.LanguagesTree,
+.FrameworksTree{
+  width: 0;
+  overflow: hidden;
+  background: #666666;
+  border-radius: 0 20px 20px 0;
+  margin-left: -13px;
+  transition: width 0.3s ease; 
+  color: white;
+}
+
+.skillTree.active, 
+.LanguagesTree.active, 
+.FrameworksTree.active {
+  width: 50%;
+  box-shadow: 1px -1px 17px 0px #393938;
+  border: 1px solid #7b7976;
+  height: 60px;
+}
+
+
+.capabilities{
+  display: flex;
+  align-items: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px;
+  position: absolute;
+  z-index: 999;
+  bottom: -21%;
+  left: 50%;
+  margin-left: -40px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 15px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
