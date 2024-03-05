@@ -1,0 +1,97 @@
+.contact-container{
+    background-image: url('./background-contact.webp');
+}
+
+.Icon {
+    list-style: none;
+    padding: 9%;
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    height: 184px;
+}
+
+@keyframes fadeIn {
+from {
+    opacity: 0;
+    transform: translateY(0px);
+}
+to {
+    opacity: 1;
+    transform: translateY(3px);
+}
+}
+
+.Icon li {
+margin-bottom: 5px; 
+}
+
+.Icon a {
+text-decoration: none;
+display: inline-block;
+position: relative;
+}
+
+.Icon a svg {
+    transition: transform 0.3s ease;
+    font-size: 43px;
+    color: black;
+    background-color: #b5daf0;;;
+    padding: 6px; 
+    border-radius: 50%;
+}
+
+.Icon a:hover svg {
+color: #ff0000;
+transform: translateY(-7px);
+}
+
+#resume{
+    margin-left: 44%;
+    padding: 14px;
+    border-radius: 20px;
+    background-color: #9ecef7;
+    border: 2px solid #8dcaff;
+    font-size: large;
+}
+
+.contactme{
+    align-items: center;
+    padding: 5%;
+    background-color: #001a65c7;
+    border-radius: 99px 117px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+    box-shadow: -1px -2px 6px 0px #001a65c7;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+.contact-header{
+    letter-spacing: 30px;
+    font-size: 26px;
+    border-bottom: 3px solid #e5dede;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+}
+.contact-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info{
+    width: 50%;
+    color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
