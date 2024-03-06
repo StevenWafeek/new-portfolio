@@ -74,12 +74,12 @@ return(
             that you need built or a project that needs coding. I'd love to help
             with it!
           </p>
-          <h2>Email</h2>
+          <h2>Email.</h2>
           <p>steven.wafeek@gmail.com</p>
-          <h2>Phone</h2>
+          <h2>Phone.</h2>
           <p>+2 01271850404</p>
-          <h2>Adress</h2>
-          <p>shar3 el gesh street</p>
+          <h2>Adress.</h2>
+          <p>Elgesh st. assiut. egypt</p>
 
         </div>
       </div>
