@@ -135,7 +135,7 @@ textarea {
     color: #396df2;
     cursor: pointer;
     margin-top: 9px;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .form-button:hover {
