@@ -5,7 +5,6 @@
 .Icon {
     list-style: none;
     padding: 9%;
-    /* margin-top: 100px; */
     display: flex;
     justify-content: space-between;
     opacity: 0;
@@ -82,6 +81,8 @@ form{
     border-bottom: 3px solid #e5dede;
     color: white;
     text-shadow: 0 0 10px #fff;
+    margin-bottom: 20px;
+
 }
 .contact-form{
     display: flex;
@@ -95,3 +96,51 @@ form{
     gap: 20px;
     flex-direction: column;
 }
+
+input{
+    height: 48px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #172b4d;
+    padding-left: 16px;
+}
+
+textarea {
+    height: 155px;
+    border: 1px solid #cfd8dc;
+    color: #b3bac5;
+    border-radius: 8px;
+    padding: 15px 0 0 15px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .form-button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    justify-content: center;
+    padding: 12px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    cursor: pointer;
+    margin-top: 9px;
+    transition: 0.5s;
+  }
+
+  .form-button:hover {
+    background-color: #6070ff;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 1px solid white;
+  }
