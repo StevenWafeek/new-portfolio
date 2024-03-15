@@ -1,0 +1,43 @@
+.projects-page{
+    padding: 10% 1%;
+}
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row;
+    align-items: center;
+    gap: 11px; */
+}
+.project-card{
+    /* width: 42%; */
+    width: 50%;
+    border: 1px solid;
+    height: 323px;
+    padding: 4%;
+    font-size: 14px;
+    border-radius: 69px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    flex: 1;
+}
+.project-card:hover{
+}
+
+section:nth-child(odd) {
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+section:nth-child(odd):hover {
+    box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.5);
+}
+  
+section:nth-child(even) {
+    margin-right: 50%;
+}
+
+section:nth-child(even):hover {
+    box-shadow: 0 0 5px 5px rgba(34, 48, 255, 0.5);
+}
