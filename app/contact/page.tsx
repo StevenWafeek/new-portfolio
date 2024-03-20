@@ -34,7 +34,7 @@ return(
 
     </ul>
       <button id="resume">
-        <a href="https://docs.google.com/document/d/11cu9r1p6hKyq3m0sKOkr90dkIvyh4Rjx-XhA_C4af8A/edit" target="_blank" rel="noopener">Get my resume</a>
+        <a href="https://drive.google.com/file/d/1aLA6Ejy3iC2H9hWyj-QQc0aKXgIdQKn4/view?usp=sharing" target="_blank" rel="noopener">Get my resume</a>
       </button>
     <div className="contactme">
       <h2 className="contact-header">CONTACT ME</h2>
