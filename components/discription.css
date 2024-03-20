@@ -18,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-top: 3px solid rgb(0, 0, 0);
+  border-top: 3px solid rgb(250, 250, 250);
   border-radius: 50%;
   animation: borderSpin 0.5s linear infinite;
 }
@@ -36,7 +36,7 @@
   width: 100%;
   padding: 20% 5%;
   gap: 20px;
-  background-image:url('./pictures/1686635204_en-idei-club-p-modern-technology-background-dizain-instag-33.png');
+  background-image:url('./pictures/57612.jpg');
   background-size:cover;
   height: 700px;
 }
@@ -51,27 +51,34 @@
 
 .typing-animation {
   font-family: monospace;
-  width: fit-content;
-  color: black;
+  width: 0;
+  color: rgb(255, 255, 255);
   overflow: hidden;
-  border-right: .15em solid rgb(0, 0, 0);
+  border-right: .15em solid rgb(255, 255, 255);
   white-space: nowrap;
   margin-bottom: 35px;
   letter-spacing: .15em;
   animation: 
-    typing 2.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    wait-and-type 3s,
+    typing 2.5s steps(40, end) 1s forwards,
+    blink-caret 0.75s step-end 3.5s forwards;
+}
+
+@keyframes wait-and-type {
+  0% { visibility: visible; }
+  100% { visibility: hidden; }
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 750px }
+  0% { width: 0; }
+  100% { width: 750px; }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(0, 0, 0); }
+  0%, 100% { border-color: transparent; }
+  50% { border-color: rgb(255, 255, 255); }
 }
+
 
   @keyframes fadeIn {
     from {
@@ -84,10 +91,10 @@
 
 .Home-summary p {
   animation: fadeIn 2.5s ease-in-out forwards;
-  background: #29292978;
+  background: #292929a8;
   padding: 1%;
   border-radius: 20px;
-  box-shadow: 1px 1px 6px 20px #29292978;
+  box-shadow: 1px 1px 6px 20px #292929a6;
 }
 
 .header_discription{
@@ -100,6 +107,8 @@
   width: 100%;
   top: 0px;
   z-index: 99;
+  height: 43px;
+  padding-left: 318px;
 }
 
 .header_discription a{
