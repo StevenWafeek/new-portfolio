@@ -104,7 +104,7 @@ const About = () => {
       <>
           <Discription />
         <div className='projects-page'>
-          <h1>here is some projects ...</h1>
+          <h1>Here is some Projects ...</h1>
           <div id="portfolio"></div>
         </div>
       </>
