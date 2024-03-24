@@ -50,6 +50,16 @@ const projectDetails = [
     linkLive: 'https://fantastic-faloodeh-f20cab.netlify.app/',
     linkSource: 'https://github.com/StevenWafeek/metrics-webapp-capstone',
   },
+  {
+    name: 'Tesla car booking',
+    description: 'app to book Tesla car test drives. The app allows admin users to create and delete cars from the availability list. Besides, it allows to make reservations by car model, city and time.',
+    featuredImageMobile: require('./Screenshot 2023-12-19 161238.jpg'),
+    featuredImageDesktop: '',
+    technologies: 'HTML , CSS , JavaScript , React',
+    buttons: 'projectss#5',
+    linkLive: 'https://tesla-car-booking-front.onrender.com/',
+    linkSource: 'https://github.com/StevenWafeek/Tesla-car-booking-front-end',
+  },
 ];
 const About = () => {
   useEffect(() => {
@@ -81,14 +91,6 @@ const About = () => {
           </div> 
          </div>
          );
-       
-        // appendChild(projectCard,
-        //   <div className="popup-buttons">
-        //     <button><a className="Demo" href={project.linkLive} target="_blank">See live</a></button>
-        //     <button><a className="Links" href={project.linkSource} target="_blank">See source</a></button>
-        //   </div>
-        // );
-
         root.appendChild(projectCard);
       });
     }
