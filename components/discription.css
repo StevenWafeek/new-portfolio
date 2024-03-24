@@ -143,22 +143,6 @@
   margin-top: -90px;
 }
 
-/* .buttonskills button{
-  margin-left: 128px;
-  padding: 14px;
-  border-radius: 57%;
-  height: 86px;
-  background: #2d095d;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 2px solid #6e00ff;
-  cursor: pointer;
-  width: 88px;
-  z-index: 1;
-} */
-
 .buttonskills h2{
   text-align: center;
   font-size: 29px;
@@ -245,12 +229,16 @@
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .tooltip-text {
   visibility: hidden;
-  width: 80px;
+  width: fit-content;
   background-color: black;
   color: white;
   text-align: center;
@@ -259,8 +247,6 @@
   position: absolute;
   z-index: 999;
   bottom: -21%;
-  left: 50%;
-  margin-left: -40px;
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 15px;
