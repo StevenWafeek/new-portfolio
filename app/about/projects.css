@@ -50,14 +50,14 @@ section:nth-child(even) .canopy {
 }
 section:nth-child(even) .Tonic-paragraph{
     padding: 5%;
-    width: 309px;
+    width: 399px;
     border-radius: 20px;
     background-image: linear-gradient(to right, rgb(187 180 191 / 70%), #313655 20%, #170e27 161%); 
     margin-left: -29px;
 }
 
 .canopy{
-    width: 274px;
+    width: 368px;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@ section:nth-child(even) .Tonic-paragraph{
 
 section:nth-child(odd) .Tonic-paragraph{
     padding: 5%;
-    width: 309px;
+    width: 395px;
     border-radius: 20px;
     background-image: linear-gradient(to left, rgb(187 180 191 / 70%), #313655 20%, #170e27 161%); 
 }
