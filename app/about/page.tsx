@@ -33,7 +33,7 @@ const projectDetails = [
   {
     name: 'Math Magicians',
     description: 'A web app for mathematical calculations and motivational advice, it offers both math solutions and inspirational quotes through an API. Built with HTML, CSS, JavaScript, and React.',
-    featuredImageMobile: require('./1687482603881.png'),
+    featuredImageMobile: require('./Screenshot 2023-10-11 170712.jpg'),
     featuredImageDesktop: '',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#3',
@@ -78,7 +78,6 @@ const About = () => {
           />
         );
 
-        // appendChild(projectCard, <h2>{project.name}</h2>); 
         appendChild(projectCard, <div className="Tonic">{imageDesktop}</div>);
         appendChild(projectCard, <div className="canopy">
           <h2>{project.name}</h2>
