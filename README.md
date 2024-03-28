@@ -110,7 +110,7 @@ npm run dev
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://fantastic-faloodeh-f20cab.netlify.app/)
+- [Live Demo Link](https://resplendent-donut-ef850a.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
