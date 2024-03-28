@@ -1,0 +1,96 @@
+.projects-page{
+    padding: 10% 1%;
+    background-image: url("./sep09cc.png");
+    color: #e9e9e9;
+}
+.projects-page h1{
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.projects-page h2{
+    text-shadow: 0px -1px 12px white;
+    color: #ffff78;
+}
+
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px; 
+    align-content: space-around;
+    align-items: center;
+}
+
+.project-card{
+    height: 323px;
+    padding: 1%;
+    font-size: 14px;
+    flex: 1;
+    transition:transform 0.3s ease;
+}
+.project-card:hover{
+    transform: scale(1.2)
+
+}
+
+section:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+section:nth-child(even) {
+    display: flex;
+}
+section:nth-child(even) .canopy {
+    align-items: flex-end;
+}
+section:nth-child(even) .Tonic-paragraph{
+    padding: 5%;
+    width: 399px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(187 180 191 / 70%), #313655 20%, #170e27 161%); 
+    margin-left: -29px;
+}
+
+.canopy{
+    width: 368px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Tonic{
+    width: 307px;
+    margin-left: 13px;
+
+}
+
+.Tonic img{
+    border-radius: 20px;
+    box-shadow: -3px -4px 9px 7px #bbb8b8b8;
+}
+
+section:nth-child(odd) .Tonic-paragraph{
+    padding: 5%;
+    width: 395px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, rgb(187 180 191 / 70%), #313655 20%, #170e27 161%); 
+}
+
+.canopy button{
+    width: 96px;
+    padding: 2%;
+    background-image: linear-gradient(to left, rgb(187 180 191 / 70%), #6f73ff 20%, #007bff 161%);
+    color: white;
+    border-radius: 20px;
+}
+
+li{
+    list-style-type: none;
+}

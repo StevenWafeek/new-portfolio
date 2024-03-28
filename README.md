@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📗 Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-First, run the development server:
+<!-- PROJECT DESCRIPTION -->
 
-```bash
+# 📖 My portfolio <a name="about-project"></a>
+
+> My portfolio
+
+**[My portfolio]** MY portfolio, built using Next.js, showcases my skills and projects in an efficient and user-friendly manner. Leveraging the power of Next.js, my portfolio offers a seamless browsing experience for Windows users
+
+## 🛠 Built With <a name="built-with">
+
+- Next.js
+- redux
+- Typescript
+
+</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://nextjs.org/">
+      Next 
+     </a></li>
+    <li><a href="#">
+      Typescript
+     </a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[ Make a mobile version ]**
+- **[Add more projects ]**
+- **[Add responsive_framework]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+1 Web browser <br>
+2 Code editor <br>
+3 git-github<br>
+4 Next.js<br>
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- clone the project using by running the following command :
+
+`git clone`
+`https://github.com/StevenWafeek/new-portfolio.git`
+
+### Usage
+
+To run the project, execute the following command:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- AUTHORS -->
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👥 Authors <a name="authors"></a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+👤 **steven wafeek**
 
-## Learn More
+- GitHub: [StevenWafeek](https://github.com/StevenWafeek)
+- Twitter: [steven_hakeem](https://twitter.com/steven_hakeem)
+- LinkedIn: [steven wafeek
+  ](https://www.linkedin.com/in/steven-wafeek-b629341b6/)
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- FUTURE FEATURES -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔭 Future Features <a name="future-features"></a>
 
-## Deploy on Vercel
+- **[Add more projects ]**
+- **[Add responsive_framework for mobile version]**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://fantastic-faloodeh-f20cab.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, star the project if you like it
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
