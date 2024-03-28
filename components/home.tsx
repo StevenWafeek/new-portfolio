@@ -9,13 +9,13 @@ import myImage from './pictures/5708995.webp';
 import codkit from './pictures/Codekit.png';
 import GitHub from './pictures/github-logo.png';
 import webpack from './pictures/webpacklogo.png';
-import html from './pictures/Ellipse 1 (1).png';
-import css from './pictures/Ellipse 1 (2).png';
-import js from './pictures/Ellipse 1.png';
+import html from './pictures/Ellipse1.png';
+import css from './pictures/Ellipse2.png';
+import js from './pictures/Ellipse3.png';
 import ts from './pictures/ts.png';
 import Bs from './pictures/bootstrap-logo-shadow.png';
 import next from './pictures/next-js-icon-512x512-zuauazrk.png';
-import tailwind from './pictures/tailwind (2).png';
+import tailwind from './pictures/tailwind.png';
 import redux from './pictures/redux.png';
 import react from './pictures/react-3.png';
 

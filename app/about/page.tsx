@@ -33,7 +33,7 @@ const projectDetails = [
   {
     name: 'Math Magicians',
     description: 'A web app for mathematical calculations and motivational advice, it offers both math solutions and inspirational quotes through an API. Built with HTML, CSS, JavaScript, and React.',
-    featuredImageMobile: require('./Screenshot 2023-10-11 170712.jpg'),
+    featuredImageMobile: require('./170712.jpg'),
     featuredImageDesktop: '',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#3',
@@ -43,7 +43,7 @@ const projectDetails = [
   {
     name: 'Pokemon List',
     description: 'A web app that displays a list of Pokémon along with their powers and speed from two APIs. built with HTML, CSS, JavaScript, and React.',
-    featuredImageMobile: require('./Screenshot 2023-10-11 170906.jpg'),
+    featuredImageMobile: require('./170906.jpg'),
     featuredImageDesktop: '',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#4',
@@ -53,7 +53,7 @@ const projectDetails = [
   {
     name: 'Tesla car booking',
     description: 'app to book Tesla car test drives. The app allows admin users to create and delete cars from the availability list. Besides, it allows to make reservations by car model, city and time.',
-    featuredImageMobile: require('./Screenshot 2023-12-19 161238.jpg'),
+    featuredImageMobile: require('./161238.jpg'),
     featuredImageDesktop: '',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#5',
