@@ -8,11 +8,11 @@ import { useState } from "react";
 import myImage from './pictures/5708995.webp';
 import codkit from './pictures/Codekit.png';
 import GitHub from './pictures/github-logo.png';
-import webpack from './pictures/webpacklogo.png';
+import Unity from './pictures/5969347.png';
 import html from './pictures/Ellipse1.png';
 import css from './pictures/Ellipse2.png';
 import js from './pictures/Ellipse3.png';
-import ts from './pictures/ts.png';
+import CSharp from './pictures/CSHARP.png';
 import Bs from './pictures/bootstrap-logo-shadow.png';
 import next from './pictures/next-js-icon-512x512-zuauazrk.png';
 import tailwind from './pictures/tailwind.png';
@@ -51,16 +51,16 @@ function HomePage(){
                 </span>
                 <div>
                     <h1 className='typing-animation'>Hello there, I'm Steven ...</h1>
-                    <p>Microverse graduate and software engineer passionate about building scalable web applications looking for a job in a reputable company as a web developer to enhance my knowledge,
-                        grow as a developer,
-                        and benefit the company.</p>
+                    <p>Passionate 2D Unity Developer skilled in C#,
+                         focused on building immersive gameplay and clean, efficient code.
+                          Eager to join a talented team to create amazing games and grow as a developer.</p>
                 </div>
             </div>
             <div className="buttonskills">
                 <h2>About Myself</h2>
                     <ul id="AboutMe-info">
                     <li>I finished a scholarship in my country called LINKME in Front-end development.</li>
-                    <li>I finished <a href="https://www.microverse.org/" target="_blank" rel="noopener">Microverse.</a></li>
+                        <li>I have completed comprehensive coursework on <a href="https://www.udemy.com/" target="_blank" rel="noopener">Udemy</a> to master these skills.</li>
                     <li>Now, I'm looking for a new opportunity.</li>
                 </ul>
                 <div className="all-button">
@@ -86,12 +86,12 @@ function HomePage(){
                                     <span className="tooltip-text">GitHub</span>
                                     </li>
                                     <li className="tooltip">                     <Image
-                            src={webpack}
+                            src={Unity}
                             alt="pic"
                             width={40}
                             height={40}
                             />
-                            <span className="tooltip-text">webpack</span>
+                            <span className="tooltip-text">Unity</span>
                             </li>
                             </ul>
                         </div>
@@ -127,12 +127,12 @@ function HomePage(){
                             <span className="tooltip-text">JavaScript</span>
                             </li>
                             <li className="tooltip">                    <Image
-                            src={ts}
+                            src={CSharp}
                             alt="pic"
                             width={40}
                             height={40}
                             />
-                            <span className="tooltip-text">TypeScript</span>
+                            <span className="tooltip-text">C#</span>
                             </li>
                             </ul>
                         </div>
